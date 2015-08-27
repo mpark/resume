@@ -1,0 +1,105 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%% Copyright 2010-2011 Mark Liu (markwayneliu@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+\usepackage{verbatim}
+
+% moderncv themes
+\moderncvcolor{blue}
+\moderncvstyle{banking}
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+
+% personal data
+\firstname{Michael}
+\familyname{Park}
+\address{410 Chantenay Drive}{Mississauga ON L5A 1E7}    % optional, remove the line if not wanted
+\phone[mobile]{650.308.8448}                    % optional, remove the line if not wanted
+\email{mcypark@gmail.com}                      % optional, remove the line if not wanted
+\social[github]{mpark}                              % optional, remove / comment the line if not wanted
+
+\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\section{Highlights}
+\cvline{Apache Software Foundation}{Committer for the Apache Mesos Project.}
+\cvline{Standard C++}{Author of \href{http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n3887.pdf}{N3887: Consistent Metafunction Aliases}, which was accepted into C++14.}
+
+\section{Experience}
+
+\cventry{Sep 2014 -- Present}{Distributed Systems Engineer}{Mesosphere}{San Francisco, CA}{}{
+  Joined Mesosphere through the acquisition of OrlyAtomics as a member of the
+  core team working on Apache Mesos, a distributed systems kernel.
+  Major contributions to Apache Mesos include: introduction of persistence
+  primitives to better support running stateful applications on Mesos,
+  and C++11 upgrade of the codebase.
+}
+
+\smallskip
+
+\cventry{Mar 2014 -- Aug 2014}{Co-Founder}{OrlyAtomics}{San Francisco, CA}{}{
+  One of the technical co-founders of OrlyAtomics. Orly is a large-scale
+  distributed graph database with a distributed runtime environment, and
+  a programming language. Major contributions to Orly include: design of the
+  programming language, and implementation of the corresponding compiler.
+}
+
+\smallskip
+
+\cventry{Sep 2013 -- Dec 2013}{Software Engineering Intern III}{Tagged}{San Francisco, CA}{}{
+  Returned as a member of a team working on StigDB, a distributed graph
+  database. Major contributions include: language design discussions related to
+  the interaction between functional and logical paradigms, and the development
+  of a library to better support algebraic data types in C++, similar to
+  \textit{Boost.Variant}.
+}
+
+\smallskip
+
+\cventry{Jan 2013 -- Apr 2013}{Software Engineering Intern}{Facebook}{Menlo Park, CA}{}{
+  Part of the cross-datacenter infrastructure team. Designed and implemented the
+  end-to-end testing framework for Wormhole, a reliable pub-sub system to support
+  geo-replicated internet services.
+}
+
+\smallskip
+
+\cventry{Jan 2012 -- Aug 2012}{Software Engineering Intern II}{Tagged}{San Francisco, CA}{}{
+  Joined as a member of a team working on StigDB, a distributed graph database.
+  Contributed in the areas of language design, compiler construction, and
+  internal technical support. Major contributions include implementation of the
+  synthetic layer of the compiler which acted as the glue between the syntactic
+  and semantic layer, and the semantic analysis layer of the compiler.
+}
+
+\smallskip
+
+\cventry{May 2011 -- Aug 2011}{Software Engineering Intern I}{Tagged}{San Francisco, CA}{}{
+  The tech lead for a team of 3 interns on the Games team. Replaced the YUI
+  library with jQuery + Backbone.js for the front-end of Pets, a web-based game
+  responsible for a significant portion of company's profit.
+}
+
+\section{Education}
+
+\cventry{Sep 2009 -- Apr 2014}{Bachelor of Computer Science}{University of Waterloo}{Waterloo, ON}{}{Honours Co-operative Program}
+
+\smallskip
+
+\cventry{Sep 2004 -- Jun 2008}{Ontario Secondary School Diploma}{Cawthra Park Secondary School}{Mississauga, ON}{}{Fine Arts Major in the Regional Arts Program}
+
+\end{document}
