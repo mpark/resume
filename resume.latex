@@ -23,7 +23,6 @@
 % personal data
 \firstname{Michael}
 \familyname{Park}
-\address{410 Chantenay Drive}{Mississauga ON L5A 1E7}    % optional, remove the line if not wanted
 \phone[mobile]{650.308.8448}                    % optional, remove the line if not wanted
 \email{mcypark@gmail.com}                      % optional, remove the line if not wanted
 \social[github]{mpark}                              % optional, remove / comment the line if not wanted
@@ -37,7 +36,10 @@
 
 \section{Highlights}
 \cvline{Apache Software Foundation}{Committer for the Apache Mesos Project.}
-\cvline{Standard C++}{Author of \href{http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n3887.pdf}{N3887: Consistent Metafunction Aliases}, which was accepted into C++14.}
+\cvline{C++ Standards Committee}{Author of \href{http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n3887.pdf}{N3887: Consistent Metafunction Aliases}, accepted into C++14.}
+\cvline{C++ Standard Library}{Author and Maintainer of libc++ `std::variant'}
+\cvline{\href{https://github.com/mpark/patterns}{MPark.Patterns}}{Pattern Matching in C++}
+\cvline{\href{https://github.com/mpark/variant}{MPark.Variant}}{C++17 'std::variant' for C++11/14/17}
 
 \section{Experience}
 
@@ -84,14 +86,6 @@
   internal technical support. Major contributions include implementation of the
   synthetic layer of the compiler which acted as the glue between the syntactic
   and semantic layer, and the semantic analysis layer of the compiler.
-}
-
-\smallskip
-
-\cventry{May 2011 -- Aug 2011}{Software Engineering Intern I}{Tagged}{San Francisco, CA}{}{
-  The tech lead for a team of 3 interns on the Games team. Replaced the YUI
-  library with jQuery + Backbone.js for the front-end of Pets, a web-based game
-  responsible for a significant portion of company's profit.
 }
 
 \section{Education}
