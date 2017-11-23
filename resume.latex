@@ -38,6 +38,7 @@
 \cvline{Apache Software Foundation}{Committer for the Apache Mesos Project.}
 \cvline{C++ Standards Committee}{Author of \href{http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2014/n3887.pdf}{N3887: Consistent Metafunction Aliases}, accepted into C++14.}
 \cvline{C++ Standard Library}{Author and Maintainer of libc++ `std::variant'}
+\cvline{Conference Speaker}{C++Now, CppCon, MesosCon}
 \cvline{\href{https://github.com/mpark/patterns}{MPark.Patterns}}{Pattern Matching in C++}
 \cvline{\href{https://github.com/mpark/variant}{MPark.Variant}}{C++17 'std::variant' for C++11/14/17}
 
@@ -91,9 +92,5 @@
 \section{Education}
 
 \cventry{Sep 2009 -- Apr 2014}{Bachelor of Computer Science}{University of Waterloo}{Waterloo, ON}{}{Honours Co-operative Program}
-
-\smallskip
-
-\cventry{Sep 2004 -- Jun 2008}{Ontario Secondary School Diploma}{Cawthra Park Secondary School}{Mississauga, ON}{}{Fine Arts Major in the Regional Arts Program}
 
 \end{document}
